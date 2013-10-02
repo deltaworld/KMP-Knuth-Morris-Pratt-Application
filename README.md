@@ -8,7 +8,7 @@ This will use the Knuth-Morris-Pratt to produce a prefix table for matching it w
 
 A sample run of the program on the pattern “ABXYABXZ” produces the following output:
 
-i     si          pi
+i     si          pi  
 1     A           0  
 2     AB          0  
 3     ABX         0  
