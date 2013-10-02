@@ -17,7 +17,7 @@ namespace RenderApplication
             InitializeComponent();
         }
         //List<int> pi = new List<int> { 0, 0, 0, 1, 2, 3 };
-        String input = "abcdabd";
+        String input = "ABXYABXZ";
 
         private void Form1_Load(object sender, EventArgs e)
         {
