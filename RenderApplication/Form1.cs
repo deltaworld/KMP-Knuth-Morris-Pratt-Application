@@ -112,7 +112,7 @@ namespace RenderApplication
                If suspend and resume is removed causes a delay. */
             result_table.SuspendLayout();
             result_table.RowCount++;
-
+            string subString = "";
             /* Loop through length of input pattern */
             for (int i = 0; i < subStringList.Count; i++)
             {
@@ -121,7 +121,9 @@ namespace RenderApplication
                 Label piLabel = new Label();        // Label for prefix value       e.g. 1
 
                 iLabel.Text = Convert.ToString(i + 1);               // Convert to String and add 1 (counter from 0)
-                sLabel.Text += Convert.ToString(subStringList[i]);  // Concatenate result to increase substring for each row.
+                subString += Convert.ToString(subStringList[i]);  // Concatenate result to increase substring for each row.
+                sLabel.Text = subString;
+                
                 piLabel.Text = Convert.ToString(pi[i]);             // prefix of index position of substring.
 
                 /* Adds Labels to the TableLayoutPanel */
