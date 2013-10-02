@@ -1,5 +1,5 @@
-Knuth-Morris-Pratt Render Application
-=====================================
+Knuth-Morris-Pratt Prefix Table Render Application
+==================================================
 
 Implementation of the text/string searching and matching algorithm KMP Knuth-Morris-Pratt in visual C#.
 
